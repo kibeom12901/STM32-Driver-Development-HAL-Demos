@@ -16,6 +16,9 @@ int main(void)
     GpioLed.GPIO_PinConfig.GPIO_PinOPType = GPIO_OP_TYPE_PP;
     GpioLed.GPIO_PinConfig.GPIO_PinPuPdControl = GPIO_NO_PUPD;
 
+    // Add External Resistor
+    // GpioLed.GPIO_PinConfig.GPIO_PinOPType = GPIO_OP_TYPE_OD;
+    
     GPIO_PeriClockControl(GPIOD, ENABLE);
     GPIO_Init(&GpioLed);
 
