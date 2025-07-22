@@ -72,6 +72,7 @@ void    SPI_SendData(SPI_RegDef_t*, uint8_t*, uint32_t);
 void    SPI_ReceiveData(SPI_RegDef_t*, uint8_t*, uint32_t);
 void    SPI_PeripheralControl(SPI_RegDef_t*, uint8_t);
 void    SPI_SSIConfig(SPI_RegDef_t*, uint8_t);
+void    SPI_SSOEConfig(SPI_RegDef_t*, uint8_t);
 void    SPI_IRQConfig(uint8_t, uint8_t);
 void    SPI_IRQPriorityConfig(uint8_t, uint8_t);
 void    SPI_IRQHandling(SPI_Handle_t*);

@@ -83,6 +83,12 @@ void SPI_SSIConfig(SPI_RegDef_t *pSPIx, uint8_t EnOrDi){
     else       pSPIx->CR1 &= ~(1<<8);
 }
 
+/* SSOE for HW NSS management */
+void SPI_SSOEConfig(SPI_RegDef_t *pSPIx, uint8_t EnOrDi){
+    if(EnOrDi) pSPIx->CR2 |=  (1U << SPI_CR2_SSOE);
+    else       pSPIx->CR2 &= ~(1U << SPI_CR2_SSOE);
+}
+
 /* IRQ stubs */
 void SPI_IRQConfig(uint8_t IRQ, uint8_t EnOrDi){}
 void SPI_IRQPriorityConfig(uint8_t IRQ, uint8_t Prio){}
