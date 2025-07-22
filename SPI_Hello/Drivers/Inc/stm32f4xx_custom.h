@@ -51,6 +51,9 @@ typedef struct {
 #define SPI2    ((SPI_RegDef_t*)(APB1PERIPH_BASE + 0x3800))
 #define SPI3    ((SPI_RegDef_t*)(APB1PERIPH_BASE + 0x3C00))
 
+/* SPI_CR2 bits */
+#define SPI_CR2_SSOE 2U
+
 /* ==== GENERIC ==== */
 #define ENABLE   1
 #define DISABLE  0
