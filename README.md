@@ -8,5 +8,6 @@ A set of small STM32 projects for testing basic embedded features.
 - **ManualGPIO_Toggle** – toggles an LED when a button is pressed using a lightweight driver implementation.
 - **ExternalButton_IT** – toggles PD12 through an interrupt triggered by the PA0 user button with a small debounce delay.
 - **SPI_Hello** – Master sends a length byte + “Hello world” over SPI2 (PB12/13/15). Arduino (slave) reads the framed packet and prints it via Serial. Shows hardware NSS (SSOE), blocking TX, and basic framing.
+- **SPI_Command** – advanced SPI master example with semihosted debug output and an Arduino-based slave using a command/ack protocol.
 
 This repository is my sandbox for experimenting with peripherals such as ADC, I2C and general GPIO control as I learn embedded programming.
