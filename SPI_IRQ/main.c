@@ -98,7 +98,7 @@ int main(void){
     NVIC_SetPriority(SPI2_IRQn, 1);
 
     while (1){
-        // … (your three blocking steps unchanged) …
+
     }
 }
 
