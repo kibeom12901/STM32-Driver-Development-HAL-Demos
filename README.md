@@ -2,6 +2,11 @@
 
 A set of small STM32 projects for testing basic embedded features.
 
+## Directory Overview
+
+- **BareMetal/** — my driver-level experiments (registers, custom drivers)
+- **HAL_Practice/** — my STM32CubeIDE + HAL workflow practice (same basics but using HAL, then extended to PWM, ADC, UART, etc.)
+
 ## Projects
 
 - **Toggle_light** – simple example that blinks an LED using a custom GPIO driver.
