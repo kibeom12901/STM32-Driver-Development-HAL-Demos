@@ -24,7 +24,6 @@ Examples that use minimal drivers and direct register access:
 
 Placeholder for forthcoming examples built on top of the STM32 HAL.
 
-
 ## PWM Quick Notes
 
 - **PSC (Prescaler):** divides timer clock. Lower PSC = higher frequency.  
@@ -37,7 +36,7 @@ f_{PWM} = \frac{f_{CLK}}{(PSC+1)(ARR+1)}, \quad Duty\% = \frac{CCR}{ARR+1} \time
 \]
 
 - Frequency = how fast cycles repeat.  
-- Duty cycle = how much of each cycle is HIGH (average output power). 
+- Duty cycle = how much of each cycle is HIGH (average output power).  
 
+Uses: LED dimming, motor control, signal generation.  
 
-This repository is my sandbox for experimenting with peripherals such as ADC, I2C and general GPIO control as I learn embedded programming.
