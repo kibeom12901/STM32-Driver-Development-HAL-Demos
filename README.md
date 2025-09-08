@@ -30,6 +30,10 @@ Placeholder for forthcoming examples built on top of the STM32 HAL.
 - **ARR (Auto-Reload Register):** max counter value → sets period with PSC.  
 - **CCR (Compare Register):** ON-time within each cycle → sets duty cycle.  
 
+Think of it this way:
+- **ARR** → period length (when counter resets to 0).  
+- **CCR (Pulse)** → number of ticks the output stays HIGH.
+  
   Formulas:  
     ![fPWM](https://latex.codecogs.com/svg.latex?f_{PWM}=\frac{f_{CLK}}{(PSC+1)(ARR+1)})  
     ![Duty](https://latex.codecogs.com/svg.latex?Duty\%=\frac{CCR}{ARR+1}\times100)
