@@ -24,6 +24,8 @@ Examples that use minimal drivers and direct register access:
 
 Placeholder for forthcoming examples built on top of the STM32 HAL.
 
+- **LCD_Stopwatch** – 16×2 LCD demo showing a stopwatch (MM:SS.CS). Uses TIM7 @ 10 ms and updates the LCD from the main loop.  
+
 ## PWM Quick Notes
 
 - **PSC (Prescaler):** divides timer clock. Lower PSC = higher frequency.  
