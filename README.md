@@ -35,7 +35,7 @@ Examples using STM32 HAL:
 
 - [**LCD_Stopwatch**](HAL_Practice/Stopwatch_LCD+TIM/) – 16×2 LCD demo showing a stopwatch (MM:SS.CS). Uses TIM7 @ 10 ms and updates the LCD from the main loop.  
 - [**PWM_Demo**](HAL_Practice/PWM/) – quick notes and experiments with PWM. Shows how PSC (Prescaler), ARR (Auto-Reload), and CCR (Compare) control frequency and duty cycle. Useful for LED dimming, motor control, and buzzer tones.
-- [**ADC_WaterSensor**](HAL_Practice/ADC_WaterSensor/) – interfaces a simple water sensor (analog output) with STM32. The ADC value is read via DMA on PC3 (ADC1_IN13), displayed on a 16×2 LCD, and mapped to a PWM output (TIM5_CH4 on PA3) to control LED brightness. Higher water levels → higher ADC values → brighter LED.
+- [**ADC_WaterSensor**](HAL_Practice/ADC_WaterSeonsor/) – interfaces a simple water sensor (analog output) with STM32. The ADC value is read via DMA on PC3 (ADC1_IN13), displayed on a 16×2 LCD, and mapped to a PWM output (TIM5_CH4 on PA3) to control LED brightness. Higher water levels → higher ADC values → brighter LED.
 
 (More HAL-based projects will be added here.)
 
