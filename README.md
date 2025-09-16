@@ -9,7 +9,7 @@ A set of small STM32 projects for testing basic embedded features.
 Projects are organized into two categories:  
 
 - **BareMetal/** – examples using minimal drivers and direct register access  
-- **HAL_Practice/** – experiments built on STM32 HAL
+- **HAL_Practice/** – projects built on STM32 HAL
 
 ---
 
