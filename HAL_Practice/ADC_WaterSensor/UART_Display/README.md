@@ -79,6 +79,7 @@ This project demonstrates how to use the **STM32F407 Discovery** board to read a
 - **Flow Control:** None
 
 ## RESULT
+<img width="538" height="583" alt="Screenshot 2025-09-18 at 9 02 18 AM" src="https://github.com/user-attachments/assets/b55037f0-78f2-4964-8ebd-f8d7a97d69fc" />
 
 ## Outside the CUP
 <img width="578" height="366" alt="Screenshot 2025-09-17 at 3 12 01 PM" src="https://github.com/user-attachments/assets/02275518-99c5-49b9-8644-2a1227dd35cc" />
