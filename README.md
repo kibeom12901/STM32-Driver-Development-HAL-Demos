@@ -41,6 +41,13 @@ Examples using STM32 HAL:
 
 ---
 
+### VS1003B_MP3_Player
+
+A step-by-step advanced project demonstrating **MP3 playback with STM32 and VS1003B**.  
+Stages include:  
+
+---
+
 ### PWM Quick Notes
 
 - **PSC (Prescaler):** divides timer clock. Lower PSC = higher frequency.  
