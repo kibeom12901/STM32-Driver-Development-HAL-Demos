@@ -17,5 +17,4 @@ This stage verifies **SPI + UART communication** with the VS1003/VS1053 audio co
 
 During bring-up, the SCI registers were read successfully:
 
-![VS1003 SCI register read](../../docs/screenshots/vs1003_sci_read.png)
-
+<img width="514" height="71" alt="vs1003_sci_read" src="https://github.com/user-attachments/assets/b45b6ded-84f0-4429-b13e-6f2c027d2456" />
