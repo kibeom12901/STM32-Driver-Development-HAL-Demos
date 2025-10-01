@@ -163,7 +163,7 @@ int main(void)
   MX_NVIC_Init();
 
   /* USER CODE BEGIN 2 */
-  uprintln("VS1003 bring-up starting...");
+  uprintln("VS10xx bring-up starting...");
   VS_HardReset();
 
   uint16_t mode=0, status=0, clockf=0;
