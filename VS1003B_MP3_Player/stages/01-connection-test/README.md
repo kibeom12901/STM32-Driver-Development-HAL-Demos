@@ -1,4 +1,4 @@
-# 01 – Connection Test (VS10xx SPI Bring-up)
+# 01 – Connection Test (VS1003 SPI Bring-up)
 
 This stage verifies **SPI + UART communication** with the VS1003/VS1053 audio codec by reading back its SCI registers after hardware reset.
 
