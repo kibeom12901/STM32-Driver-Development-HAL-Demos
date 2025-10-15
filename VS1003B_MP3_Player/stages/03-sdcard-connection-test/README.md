@@ -3,7 +3,7 @@
 ## 🎯 Objective
 Test SPI2 communication and microSD card initialization before integrating FatFS.  
 This stage ensures correct wiring, SPI configuration, and card readiness detection (CMD0/ACMD41 sequence).
-
+ 
 ---
 
 ## ⚙️ Hardware Configuration
