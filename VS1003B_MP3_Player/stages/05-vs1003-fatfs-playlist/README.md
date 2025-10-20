@@ -50,6 +50,8 @@ This stage builds upon the previous modules:
 
 > ⚠️ Make sure the SD card is formatted as **FAT32**, otherwise FatFS mounting will fail.
 
+<img width="455" height="194" alt="Screenshot 2025-10-20 at 1 52 13 PM" src="https://github.com/user-attachments/assets/7052120b-9800-4448-8791-de7a4d20b2b3" />
+
 ---
 
 ## 🧠 Software Flow
