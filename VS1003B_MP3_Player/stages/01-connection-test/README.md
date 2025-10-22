@@ -1,5 +1,7 @@
 # 01 – Connection Test (VS1003 SPI Bring-up)
 
+<img width="278" height="291" alt="Screenshot 2025-10-22 at 9 43 33 AM" src="https://github.com/user-attachments/assets/c0d4fd48-244b-459d-9f52-00d580d08a36" />
+
 This stage verifies **SPI + UART communication** with the VS1003/VS1053 audio codec by reading back its SCI registers after hardware reset.
 
 ## 🔌 Wiring (CubeMX pinout)
