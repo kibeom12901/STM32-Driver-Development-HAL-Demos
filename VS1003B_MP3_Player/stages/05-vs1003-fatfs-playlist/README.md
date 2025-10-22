@@ -43,8 +43,7 @@ This stage builds upon the previous modules:
 
 3. Copy your downloaded MP3 files into that folder using a **USB 3.0 SD card adapter** connected to your **Mac**.
 
-   Example layout:
-
+    <img width="375" height="212" alt="Screenshot 2025-10-22 at 9 54 40 AM" src="https://github.com/user-attachments/assets/e72143be-4be8-4b1c-bd4a-467ec73bae9e" />
 
 4. Eject the SD card safely and insert it into your STM32 setup.
 
