@@ -1,5 +1,7 @@
 # Stage 03 — microSD (SPI2) Connection Test
 
+<img width="394" height="334" alt="Screenshot 2025-10-22 at 9 51 04 AM" src="https://github.com/user-attachments/assets/a9b04311-7ae6-4383-9ee9-3cb070ab42bf" />
+
 ## 🎯 Objective
 Test SPI2 communication and microSD card initialization before integrating FatFS.  
 This stage ensures correct wiring, SPI configuration, and card readiness detection (CMD0/ACMD41 sequence).
