@@ -28,6 +28,7 @@ Each stage under [`/stages`](./stages) represents a milestone in functionality â
 | **04** | [sdcard-fatfs](./stages/04-sdcard-fatfs) | Mount the SD card via FatFS and list files. |
 | **05** | [vs1003-fatfs-playlist](./stages/05-vs1003-fatfs-playlist) | Integrate VS1003B decoding + FatFS file streaming. |
 | **06** | [vs1003-fatfs-refinements](./stages/06-vs1003-fatfs-refinements) | Add shuffle mode, SD remount retry, and button gestures (single/double/long press). |
+| **07** | [FINAL-modularized-lib](./stages/07-FINAL-modularized-lib) | Final modular version â€” all reusable drivers moved to `/lib` (VS1003, playlist, button, volume, util, etc.) and `main.c` simplified for clean structure. |
 
 ---
 
