@@ -54,16 +54,6 @@ Each stage under [`/stages`](./stages) represents a milestone in functionality â
 - Retry mount logic for slow SD initialization.  
 - UART debug logging for all events (115200 bps default).
 
----
-
-## ðŸ§  Planned Future Stages
-
-| Stage | Focus | Description |
-|:--|:--|:--|
-| 07 | **vs1003-lcd-display** | Display track title and artist on LCD. |
-| 08 | **vs1003-volume-eq** | Implement SCI volume and equalizer control. |
-| 09 | **vs1053-sd-write** | Enable WAV recording to SD (VS1053B). |
-| 10 | **vs1003-usb-msc** | Add USB mass storage bridge for SD access. |
 
 ---
 
